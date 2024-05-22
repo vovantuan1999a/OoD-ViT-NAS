@@ -130,7 +130,7 @@ python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageN
     bash compute_9_trainning_frees_for_Vit_OoD.sh
 
 
-Usage
+Usage OoD-ViT-NAS Out-of-Distribution Generalization dataset
 -------
 This repository contains a helper class, ViTOoD_dataset.py, to access the data. Below is an example demonstrating how to use this helper class.
 
