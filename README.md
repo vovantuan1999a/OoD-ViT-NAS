@@ -112,7 +112,17 @@ Training-free NAS pipeline for OoD Generalization
 
 ```python
 python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
- --change_qk --relative_position --dist-eval --search-space './experiments/supernet/supernet-B.yaml' --output_dir './OUTPUT/trainning_free_nas' --supernet 'small'
+ --change_qk --relative_position --dist-eval --search-space './experiments/supernet/supernet-S.yaml' --output_dir './OUTPUT/trainning_free_nas' --supernet 'small'
+```
+
+```python
+python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
+ --change_qk --relative_position --dist-eval --search-space './experiments/supernet/supernet-B.yaml' --output_dir './OUTPUT/trainning_free_nas' --supernet 'base'
+```
+
+```python
+python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
+ --change_qk --relative_position --dist-eval --search-space './experiments/supernet/supernet-T.yaml' --output_dir './OUTPUT/trainning_free_nas' --supernet 'tiny'
 ```
 
 2.Run it
