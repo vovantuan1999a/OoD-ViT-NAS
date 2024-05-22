@@ -133,8 +133,6 @@ class VitOoDDataset:
                 q = d
                 if d == VitOoDDataset.data_inS:
                     q = 'sketch'
-                if d == VitOoDDataset.data_inST:
-                    q = 'stylized-imagenet'
 
                 for id,value in self.meta.items():
                     if id == "1000":
