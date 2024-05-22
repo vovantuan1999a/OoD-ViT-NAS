@@ -1,0 +1,4 @@
+data_set: ImageNet-P
+imagenet_root_dir:  ./datasets/imagenet_P
+type_corruption: Gaussian Noise
+level_corruption: None

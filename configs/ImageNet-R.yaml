@@ -1,0 +1,4 @@
+data_set: ImageNet-R
+imagenet_root_dir:  ./datasets/imagenet_R
+type_corruption: imagetnet-R
+level_corruption: None

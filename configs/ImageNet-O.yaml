@@ -1,0 +1,5 @@
+data_set: ImageNet-O
+imagenet_root_dir:  ./datasets/imagenet_O
+imagetnet_original_dir: ./datasets/imagenet1k/val
+type_corruption: imagetnet-O
+level_corruption: None
