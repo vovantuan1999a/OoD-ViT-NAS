@@ -108,7 +108,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env evolution_OoD_Vi
 Training-free NAS pipeline for OoD Generalization
 --------------
 
-1.Edit compute_training_free_for_ViT_OoD.sh to specify the paths for your OoD datasets and the ViT architectures from the AutoFormer supernet search space that you want to evaluate.
+1.Edit compute_training_free_for_ViT_OoD.sh to specify the paths for your OoD datasets and the ViT architectures from the AutoFormer supernet search space that you want to evaluate Training-free NAS.
 
 ```python
 python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
