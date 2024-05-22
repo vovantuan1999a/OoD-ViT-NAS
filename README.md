@@ -6,7 +6,7 @@ You use conda to create a virtual environment to run this project.
 ```bash
 
 cd  OoD-ViT-NAS
-conda create --name OoDViTNAS python=3.6.9
+conda create --name OoDViTNAS python=3.7.16
 conda activate OoDViTNAS
 pip install -r requirements.txt
 ```
