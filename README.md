@@ -18,7 +18,7 @@ Quick Start
 
 Dataset
 --------------
-You can download the OoD-ViT-NAS Out-of-Distribution Generalization dataset from: https://drive.google.com/drive/folders/19nb6d2DttDCLhWNY117M8nFn7zxb2LH2?usp=sharing.
+You can download the OoD-ViT-NAS Out-of-Distribution Generalization dataset from: https://drive.google.com/drive/folders/19nb6d2DttDCLhWNY117M8nFn7zxb2LH2?usp=sharing
 
 The dataset is divided into three AutoFormer search spaces: Supernet-Base, Supernet-Small, and Supernet-Tiny. Each dataset includes evaluation results (ID Accuracy, OoD Accuracy) for 8 large common OoD datasets: ImageNet-C, ImageNet-A, ImageNet-O, ImageNet-P, ImageNet-D, ImageNet-R, ImageNet-Sketch, and Stylized ImageNet. This structure helps keep file sizes manageable and allows for selective evaluation results. To use the provided helper class, you need to download the merged JSON data files: OoD-ViT-NAS-Small.json, OoD-ViT-NAS-Tiny.json, and OoD-ViT-NAS-Base.json.
 
