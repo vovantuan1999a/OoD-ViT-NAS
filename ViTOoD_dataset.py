@@ -156,7 +156,7 @@ class VitOoDDataset:
                                 if id == "1000":
                                     break
                                 get_levels = {}
-                                get_levels[level] = value['performance']['Imagenet']['corruption'][k][level]
+                                get_levels[level] = value['performance']['Imagenet'][d][k][level]
                                 result[d][id][k] = get_levels
                                 result[d][id]["net_setting"] = value['net_setting']
                                 if pbar is not None:
@@ -169,7 +169,7 @@ class VitOoDDataset:
                             for id,value in self.meta.items():  
                                 if id == "1000":
                                     break
-                                result[d][id][k] = value['performance']['Imagenet']['corruption_P'][k]
+                                result[d][id][k] = value['performance']['Imagenet'][d][k]
                                 result[d][id]["net_setting"] = value['net_setting']
                                 if pbar is not None:
                                     pbar.update(1)
