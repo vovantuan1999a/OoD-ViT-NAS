@@ -71,7 +71,7 @@ level_corruption: '5' #or other level corruption of ImagetNet C (1, 2, 3, 4)
 data_set: ImageNet-D
 imagenet_root_dir:  .  /Your/Path/Of/ImageNet_D
 type_corruption: texture #other type of ImagetNet D (background, material)
-level_corruption: nonehttps://www.overleaf.com/8627546856fjyhbgtmtbvw#5aa6ab
+level_corruption: None
 
 # change the dataset path for ImagetNet-Stylized (ImageNet-Stylized.yaml)
 data_set: ImageNet-Stylized
