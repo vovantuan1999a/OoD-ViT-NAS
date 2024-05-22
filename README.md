@@ -111,7 +111,7 @@ Training-free NAS pipeline for OoD Generalization
 1.Edit compute_training_free_for_ViT_OoD.sh to specify the paths for your OoD datasets and the ViT architectures from the AutoFormer supernet search space that you want to evaluate.
 
 ```python
-python compute_trainning_free_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
+python compute_9_trainning_frees_for_Vit_OoD.py --data-path /Your/Path/Of/ImageNet_OoD --gp \
  --change_qk --relative_position --dist-eval --search-space './experiments/supernet/supernet-B.yaml' --output_dir './OUTPUT/trainning_free_nas' --supernet 'small'
 ```
 
@@ -124,7 +124,7 @@ Usage
 -------
 This repository contains a helper class, ViTOoD_dataset.py, to access the data. Below is an example demonstrating how to use this helper class.
 
-We provide API JSON data so that you can use these APIs to evaluate OoD performance results on ViT architectures from the AutoFormer search space across 8 large common OoD datasets: ImageNet-A, ImageNet-O, ImageNet-P, ImageNet-C, ImageNet-D, ImageNet-R, Stylized ImageNet, and ImageNet-Sketch.
+We provide API access to JSON data, enabling you to evaluate Out-of-Distribution (OoD) performance results on Vision Transformer (ViT) architectures. These architectures are derived from the AutoFormer search space and tested across 8 and commonly used OoD datasets: ImageNet-A, ImageNet-O, ImageNet-P, ImageNet-C, ImageNet-D, ImageNet-R, Stylized ImageNet, and ImageNet-Sketch.
 
 
 ```python
