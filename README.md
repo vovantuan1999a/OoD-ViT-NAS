@@ -26,7 +26,9 @@ Evaluation of ViT AutoFormer Pipeline on 8 Common OoD Datasets
 --------------
 If you want to use this project to evaluate ViT architectures from the AutoFormer supernet (https://github.com/microsoft/Cream/tree/main/AutoFormer), you can create a work directory for saving configuration files, JSON results, etc.
 
-We provide an example of evaluating ViT architectures from the AutoFormer supernet-small, supernet-tiny, and supernet-base on 8 common OoD datasets: ImageNet-C, ImageNet-A, ImageNet-O, ImageNet-P, ImageNet-D, ImageNet-R, ImageNet-Sketch, and Stylized ImageNet.
+We provide an example of evaluating ViT architectures from the AutoFormer supernet-small, supernet-tiny, and supernet-base on 8 common OoD datasets: ImageNet-C, ImageNet-A, ImageNet-O, ImageNet-P, ImageNet-D, ImageNet-R, ImageNet-Sketch, and Stylized ImageNet. Please follow instructions for the datasets: 
+[ImageNet](https://www.image-net.org/download.php), [ImageNet-C](https://github.com/hendrycks/robustness), [ImageNet-A](https://github.com/hendrycks/natural-adv-examples), [ImageNet-O](https://github.com/hendrycks/natural-adv-examples), [ImageNet-P](https://github.com/hendrycks/robustness), [ImageNet-D](https://github.com/chenshuang-zhang/imagenet_d), [ImageNet-R](https://github.com/hendrycks/imagenet-r), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch), [Stylized ImageNet](https://github.com/rgeirhos/Stylized-ImageNet).
+
 
 1.Download the pretrained weight models for AutoFormer supernet-small, supernet-tiny, and supernet-base from AutoFormer on GitHub: https://github.com/microsoft/Cream/tree/main/AutoForme and place it into the specified directory.
 
