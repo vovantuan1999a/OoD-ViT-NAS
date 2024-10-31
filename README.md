@@ -2,7 +2,7 @@
 This codebase provides a Pytorch implementation for the our paper **Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights** at **NeurIPS 2024**
 
 **Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights** <br>
-Sy-Tuyen Ho*, Tuan Van Vo*, [Somayeh Ebrahimkhani*], Ngai-Man Cheung <br>
+Sy-Tuyen Ho*, Tuan Van Vo*, Somayeh Ebrahimkhani*, Ngai-Man Cheung <br>
 (*Equal contribution) <br>
 **NeurIPS 2024**
 
