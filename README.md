@@ -1,5 +1,6 @@
 # [NeurIPS 2024] OoD-ViT-NAS: Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights
 This codebase provides a Pytorch implementation for the our paper:
+
 **Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights** <br>
 Sy-Tuyen Ho*, Tuan Van Vo*, Somayeh Ebrahimkhani*, Ngai-Man Cheung <br>
 (*Equal contribution) <br>
