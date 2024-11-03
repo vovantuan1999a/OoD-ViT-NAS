@@ -1,5 +1,5 @@
 # [NeurIPS 2024] OoD-ViT-NAS: Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights
-This is **the official code** of our paper, which has been accepted by the main conference of NeurIPS 2024:
+This is **the official code** of our paper, which has been accepted by the main conference of **NeurIPS 2024**:
 
 **Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights** <br>
 Sy-Tuyen Ho*, Tuan Van Vo*, Somayeh Ebrahimkhani*, Ngai-Man Cheung <br>
