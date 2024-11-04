@@ -174,7 +174,7 @@ print(results['stylized-imagenet']['728'])['stylized-imagenet']
 ## 6. Citation
 
 ```
-@inproceedings{OoD-ViT-NAS,
+@inproceedings{
     title={Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights},
     author={Sy-Tuyen Ho, Tuan Van Vo, Somayeh Ebrahimkhani, Ngai-Man Cheung},
     booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
