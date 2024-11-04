@@ -171,3 +171,13 @@ print(results['imagenet-D']['728']["texture"])
 print(results['imagenet-sketch']['728'])['sketch']
 print(results['stylized-imagenet']['728'])['stylized-imagenet']
 ```
+## 6. Citation
+
+```
+@inproceedings{OoD-ViT-NAS,
+    title={Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights},
+    author={Sy-Tuyen Ho, Tuan Van Vo, Somayeh Ebrahimkhani, Ngai-Man Cheung},
+    booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+    year={2024}
+}
+```
