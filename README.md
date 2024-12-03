@@ -3,7 +3,7 @@ This is **the official code** of our paper, which has been accepted by the main 
 
 **[Vision Transformer Neural Architecture Search for Out-of-Distribution Generalization: Benchmark and Insights](https://openreview.net/forum?id=2AIwiIkE0s)** <br>
 Sy-Tuyen Ho*, Tuan Van Vo*, Somayeh Ebrahimkhani*, Ngai-Man Cheung <br>
-(*) **Equal contribution** <br>
+(*) **Co-first authors, Equal contribution** <br>
 **NeurIPS 2024**
 
 ### Abstract: 
